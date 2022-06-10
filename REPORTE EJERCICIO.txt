@@ -1,0 +1,86 @@
+Práctica común Command Line Challenge
+=============================================
+
+1.- Get inside the thecmdchallenge/ directory
+
+cd thecmdchallenge
+
+2.- Print current directory path
+pwd
+
+3.- List all the files from the current directory including the hidden ones
+ls -l -a
+
+4.- Now list all the files inside the project, recursively (all files in the hierarchy).
+ls -la /*
+
+5.-Clear all the clutter from the command line
+clear
+
+6.- Go to the last level below the small-name folder and show on the console the content of the trophy.txt file.
+Es un trofeo hecho con carateres
+
+7.-Move one level up and get to the funcode directory and list all files with the javascript typical extension.
+ls *.js (regexer.1.js  regexer.js  script.js)
+
+8.- Create a new directory inside funcode/the-most-funny/ called “not-that-funny“.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ mkdir not-that-funny
+
+9.- Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt.
+find . -name the-mostboring-text.txt
+
+Salida :  ./event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/the-mostboring-text.txt
+salida de ls tras cp: lol.txt  myfirstcopy.txt  the-mostboring-text.txt
+
+10.-Move funcode/kids.jpg inside funcode/images/hello/
+mv kids.1.jpg ./images/hello
+
+11.- Remove the “small-name“ directory.
+rm -r small-name
+
+12.- Print in the command line the content of the-ultimate-joke.txt.
+find . -name the-ultimate-joke.txt // salida: ./funcode/the-most-funny/lol/the-ultimate-joke.txt
+
+cat funcode/the-most-funny/lol/the-ultimate-joke.txt
+
+13.- Remove all the contents from the boringfolder, they are extremely boring…
+rm -r event-more-boring/
+
+14.-Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor
+
+	Where do you put Vegeta after you kill him? In the Frieza.
+	
+	What did Beerus say to Goku? Why don't you tell your son to "Gohan" home.
+	
+	How many Super Saiyans does it take to change a light bulb? Just one, but it will take him five episodes.
+	
+	I don't find Dragon Ball Z jokes to be funny..... "Just Saiyan"
+	
+	What do Saiyans wear to the beach? Trunks.
+	
+	What did Vegeta say when he got his tuition bill? "It's over 9000"
+	
+	Where does Vegeta get the energy to fly? Red Bullma, it gives you wings.
+	
+	What is Goku's favorite instrument of destruction? A Piccolo (flute).
+	
+	How do you get in touch with an android? By using a CELL Phone.
+	
+	Did you know Frieza wasn't very popular in school? His brother was COOLER.
+	
+	Me: How do you make Dragon Ball Z less gay? Shenron: "Your wish is far beyond my power."
+	
+	What does an elite saiyan warrior need to fix a car? Nappa know how.
+	
+	I cut off a monkeys tail and now he's just a vegeta-ble.
+	
+	Hey, Vegeta I heard you have a hole in your Trunks. -Cell
+	
+	source: http://www.jokes4us.com/peoplejokes/dragonballzjokes.html
+	"dragon-ball-jokes.md" [noeol] 29L, 1060C
+	
+	15.- Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor.
+	
+	se entra con vi nombre de archivo
+	se hace la modificación
+	y se teclea :wq para grabar y salir
